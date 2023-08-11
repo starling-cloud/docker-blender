@@ -1,0 +1,9 @@
+{
+    "name": "Substrate Dev Container",
+    "dockerFile": "Dockerfile",
+    "forwardPorts": [9944],
+    "postCreateCommand": "cargo build --release",
+    "extensions": [
+        "rust-lang.rust"
+    ]
+}
