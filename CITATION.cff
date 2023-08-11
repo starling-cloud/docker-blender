@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-title: Starling bLender devContainer
+title: Starling Blender devContainer
 version: 0.0.1
 date-released: 2023-07-01
 url: "https://github.com/starling-cloud/docker-blender-devcontainer"
