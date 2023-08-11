@@ -1,3 +1,3 @@
 # Security Policy
 
-To report a security vulnerabilities, please email [info@blockfoundation.io](mailto:info@blockfoundation.io).
+To report a security vulnerabilities, please email [info@starling.cloud](mailto:info@starling.cloud).
