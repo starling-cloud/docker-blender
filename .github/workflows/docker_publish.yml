@@ -128,7 +128,7 @@ jobs:
         env:
           # GITHUB_REPOSITORY_OWNER: ${{ github.repository_owner }}
           # REGISTRY_ENDPOINT: ${{ secrets.REGISTRY_ENDPOINT }}
-          REGISTRY_ENDPOINT: blockfoundation
+          REGISTRY_ENDPOINT: starlingnest
           REPOSITORY_ENDPOINT: ghcr.io/${{ github.repository }}
           IMAGE_NAME: ${{ secrets.IMAGE_NAME }}
           BRANCH: ${{ env.BRANCH }}
