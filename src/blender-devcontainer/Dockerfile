@@ -46,10 +46,10 @@ RUN wget https://www.python.org/ftp/python/3.7.0/Python-3.7.0.tgz \
 	&& rm -rf Python-3.7.0 
 
 # Blender comes with a super outdated version of numpy (which is needed for matplotlib / opencv) so override it with a modern one
-RUN rm -rf ${BLENDER_PATH}/python/lib/python3.7m/site-packages/numpy 
+# RUN rm -rf ${BLENDER_PATH}/python/lib/python3.7m/site-packages/numpy 
 
 # Must first ensurepip to install Blender pip3 and then new numpy
-RUN ${BLENDERPY} -m ensurepip && ${BLENDERPIP} install --upgrade pip && ${BLENDERPIP} install numpy
+# RUN ${BLENDERPY} -m ensurepip && ${BLENDERPIP} install --upgrade pip && ${BLENDERPIP} install numpy
 
 # Set the working directory
 WORKDIR /
