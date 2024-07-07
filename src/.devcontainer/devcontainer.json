@@ -1,9 +1,15 @@
 {
-    "name": "Substrate Dev Container",
-    "dockerFile": "Dockerfile",
-    "forwardPorts": [9944],
-    "postCreateCommand": "cargo build --release",
+    "name": "Blender Development",
+    "image": "your_docker_image_here", // Specify your Docker image containing Blender and necessary tools
+    "settings": {
+        "terminal.integrated.shell.linux": "/bin/bash"
+    },
     "extensions": [
-        "rust-lang.rust"
-    ]
+        "ms-python.python" // This is useful if you are developing Blender scripts in Python
+    ],
+    "forwardPorts": [
+        8080 // Forward any ports if you have web services or similar running
+    ],
+    "postCreateCommand": "echo 'Container ready!'", // Optional setup command after container creation
+    "remoteUser": "vscode" // User under which the container runs
 }
