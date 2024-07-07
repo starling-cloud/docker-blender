@@ -4,4 +4,4 @@
 # Base Image
 # =============================================================================
 
-FROM blockfoundation/ethereum-solidity-devcontainer:latest
+FROM starlingnest/docker-blender-devcontainer:latest
