@@ -4,4 +4,4 @@
 # Base Image
 # =============================================================================
 
-FROM starlingnest/docker-blender-devcontainer:latest
+FROM starlingnest/docker-blender:latest
