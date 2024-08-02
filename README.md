@@ -1,6 +1,6 @@
 # Blender devContainer
 
-This Docker setup provides a Blender 2.80 environment running on Ubuntu 18.04 with CUDA 10.1 support, ideal for GPU-accelerated rendering tasks.
+This Docker setup provides a Blender nvironment running on Ubuntu with CUDA support, ideal for GPU-accelerated rendering tasks.
 
 ## Prerequisites
 
@@ -40,12 +40,6 @@ docker run --gpus all -it --rm blender-gpu /bin/bash
 ```
 
 You will enter into the command line inside the container where you can manually run Blender.
-
-## Configuration
-
-- **Blender Version**: 2.80
-- **CUDA Version**: 10.1
-- **Base Image**: `nvidia/cudagl:10.1-base-ubuntu18.04`
 
 ## Environment Variables
 
