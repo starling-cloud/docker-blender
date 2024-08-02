@@ -4,8 +4,8 @@
 # Base Image
 # =============================================================================
 
-FROM nvidia/cudagl:10.1-base-ubuntu18.04
-
+# FROM nvidia/cudagl:10.1-base-ubuntu18.04
+FROM nvidia/cudagl:11.4.1-runtime-ubuntu20.04
 
 # Environment variables
 # =============================================================================
