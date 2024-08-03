@@ -1,6 +1,8 @@
-# Blender devContainer
+# Docker | Blender
 
-This Docker setup provides a Blender nvironment running on Ubuntu with CUDA support, ideal for GPU-accelerated rendering tasks.
+** Starling Suite**
+
+This Docker setup provides a Blender environment running on Ubuntu with CUDA support, ideal for GPU-accelerated rendering tasks.
 
 ## Prerequisites
 
