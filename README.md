@@ -1,6 +1,6 @@
 # Docker | Blender
 
-**Starling Suite**
+**Starling Studio Suite**
 
 ---
 
